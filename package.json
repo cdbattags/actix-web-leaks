@@ -1,0 +1,14 @@
+{
+  "name": "actix-web-leaks",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "autocannon -c 500 http://localhost:8080/hello"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "autocannon": "^4.6.0"
+  }
+}
